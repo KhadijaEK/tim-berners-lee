@@ -1,0 +1,155 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: content;
+    
+}
+
+body{
+    background-color: lightgray;
+}
+
+.container{
+    width: 750px;
+    position: relative;
+    margin-left: 20%;
+    margin-right: 15%;
+    padding: 3em;
+}
+
+section {
+    background-color: white;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
+    position: relative;
+    padding: 3em;
+    margin: 0px 30px 30px 20px;
+    color: grey;
+    
+}
+
+h1, h2, h3{text-align: center;}
+h1{
+    font-size: 34px;
+    font-weight: bolder;
+    color: rgb(233, 37, 37);
+}
+
+h2{
+    line-height: 1.5;
+}
+
+p {font-size: 16px; text-align: justify;}
+
+span{font-weight: bold;}
+
+.intro{
+    height: 500px;
+    position: relative;
+    text-align: center;
+}
+
+.btn {
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: rgb(197, 28, 28);
+    padding: 15px 40px;
+    text-decoration: none;
+    justify-items: center;
+    border: none;
+    position: relative;
+    top: 10px;
+}
+  
+.btn:hover {
+    background: #FF9190;
+    text-decoration: none;
+  }
+
+
+
+img{
+    width: 75%;
+    text-align: center;
+}
+
+.intro img{
+    margin: 0 0 1em 0;
+    border-radius: 50%;
+    width: 20%;
+    border: 3px solid grey;
+}
+
+
+ /* social buttons */
+
+.socialbutton li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-between;
+    margin: O auto;
+    padding: 5px;
+    position: relative;
+    left: 10px;
+}
+
+.socialbutton p{
+    display: inline-flex;
+    justify-content: space-between;
+    position: relative;
+    top: 60px;
+    left: -100px;
+    color: lightgray;
+}
+
+.fa {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+    text-decoration: none;
+    color: lightgrey;
+    font-weight: normal;
+    border-radius: 25px;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+}
+
+
+.fa:hover {
+    opacity: 1;
+    color: grey;
+  }
+
+/* movie section */
+.movie-container {
+    height: 400px;    
+}
+
+
+.odissey, .hulot, .alien{
+    float: left;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
